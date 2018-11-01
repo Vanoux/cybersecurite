@@ -16,27 +16,27 @@
         <h1 class= "text-center mb-0">Enregistrez vous</h1>
     </div>
         <div class="card-body bg-secondary">
-            <form class="form" action="/" role="form" autocomplete="on" method="GET">
+            <form class="form" action="/cible.php" role="form" autocomplete="on" method="GET">
                 <fieldset>
                     <label for="name" class="text-white mb-0">Nom</label>
                         <div class="row mb-1">
                             <div class="col-lg-6">
-                                <input type="text" name="name" id="name" class="form-control" required="off">
+                                <input type="text" name="name" class="form-control" required="off">
                             </div>
                         </div>
                     <label for="email" class="text-white mb-0">Email</label>
                         <div class="row mb-1">
                             <div class="col-lg-6">
-                                <input type="email" name="email" id="email" class="form-control" required="off">
+                                <input type="email" name="email" class="form-control" required="off">
                             </div>
                         </div>
                     <label for="password" class="text-white mb-0">Mot de passe</label>
                         <div class="row mb-1">
                             <div class="col-lg-6">
-                                <input type="password" name="password" id="password" class="form-control" required="off">
+                                <input type="password" name="password" class="form-control" required="off">
                             </div>
                         </div>
-                    <button type="submit" class="btn btn-info btn-lg float-right">Envoi</button>
+                    <input type="submit" class="btn btn-info btn-lg float-right">
                 </fieldset>
             </form>
         </div>
