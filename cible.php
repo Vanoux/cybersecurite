@@ -1,4 +1,7 @@
 <p>Bonjour  <?php echo $_GET['name']; ?> !</p>
+<p>Voici ton nom avec le code html échappé: <?php echo htmlspecialchars($_GET['name']); ?></p>
+
+
 <p>Voici ton adresse mail : <?php echo $_GET['email']; ?></p>
 <p>Et ton mot de passe : <?php echo $_GET['password']; ?> </p>
 
